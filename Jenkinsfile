@@ -6,7 +6,7 @@ pipeline{
 stages{
   stage('Git Checkout') {
   steps {
-  git 'https://github.com/mjjawad/insure-me.git'
+  git 'https://github.com/mjjawad/healthdomain.git'
         }
      }
   stage('Build Package'){
